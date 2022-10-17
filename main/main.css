@@ -23,12 +23,12 @@ body {
     height: 60px;
     justify-content: space-around;
     padding-top: 11px;
-    background-color: #e1ebf7;
+    background-color: rgb(224, 235, 247);
 
 }
 
 .main-page {
-    margin-top: 50px;
+    margin-top: 0px;
     position: absolute;
     width: 100%;
 }
@@ -258,6 +258,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 40px;
+    text-align: center;
     text-transform: capitalize;
 }
 
@@ -266,6 +267,7 @@ body {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+    padding-bottom: 20px;
 }
 
 .card-container::-webkit-scrollbar {
@@ -295,18 +297,21 @@ body {
     font-weight: bold;
     padding: 0px 30px;
     margin: 20px 0px;
+    /* margin-top: 40px; */
 }
 
 .card > p {
     margin: 15px 0px;
-    font-size: 10px;
+    font-size: 8px;
+    line-height: 17px;
     text-align: center;
+    color: #737373;
 }
 
-.fa-chart-simple {
+.simple {
     font-size: 30px;
-    color: #0f0;
-    background :linear-gradient(24deg, rgb(78, 84, 200) 40%, rgb(143, 148, 251) 100%);
+    color: #FFF;
+    background :#4FF0FF;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -314,6 +319,7 @@ body {
 }
 
 .card-logo {
+    margin-bottom: 20px;
     width: auto;
     text-align: center;
 }
