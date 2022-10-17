@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Account | Sign In</title>
+        <link rel="shortcut icon" href="1x/privacy-policy.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="nav-form">
+            <div class="item1">
+                <p class="nav-head">HireSEO</p>
+                <a href="#" class="nav-para">hire@Kyaw.mm <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="item2">
+                <i class="fa-solid fa-globe"></i>
+                <p class="para-sign">Sign up</p>
+                <p class="req">Request Demo</p>
+            </div>
+        </div>
+        <div class="form">
+            <form action="main/mainpage.html" class="form-control">
+                    <h4 class="form-header">Login</h4>
+                    <p class="form-para">HEY! Enter your details to get sign in to your account</p>
+                    <div class="user-name">
+                        <input type="text" name="userName" id="userN" required placeholder="Your Name"> 
+                    </div>
+                    <div class="user-name">
+                        <input type="email" id="userPhone" required placeholder="Your Phone or Email">
+                    </div>
+                    <div class="user-name">
+                        <input type="password" name="userPass" id="userPassword" required placeholder="Your Password">
+                        <div class="check"><input type="checkbox" onclick="showPassword()">Show Password</div>
+                    </div>
+                    <a href="#" class="trouble">Having trouble in sign in?</a>
+
+                    <button class="sign-in-button" href="main/mainpage.html">Sign in</button>
+
+                    <p class="other-sign-in"><i class="fa-sharp fa-solid fa-minus"></i>Or Sign in with<i class="fa-sharp fa-solid fa-minus"></i></p>
+                    <div class="social-app">
+                        <div class="app1"><i class="fa-brands fa-google"></i>Google</div>
+                        <div class="app2"><i class="fa-brands fa-apple"></i>Apple</div>
+                        <div class="app3"><i class="fa-brands fa-facebook"></i>Facebook</div>
+                    </div>
+
+                    <p class="req-now">Don't have any account? <a href="#">Request Now</a></p>
+
+
+            </form>
+
+            <div class="copy">
+                <span>Copyright</span> @wework 2022| Privacy Policy
+            </div>
+
+        </div>
+        <script src="form.js"></script>
+
+    </body>
+</html>

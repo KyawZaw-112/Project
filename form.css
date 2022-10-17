@@ -1,0 +1,297 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../form-background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../../form-background.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 390px){
+
+    .form-control {
+        width: 300px;
+        height: 100%;
+        margin: auto;
+        margin-top: 20px;
+        background-color: #fff;
+        padding: 20px 50px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+    .nav-form {
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .item2 {
+        display: none;
+    }
+
+    .form-control {
+        margin-top: 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 390px) {
+    .form-para {
+        display: none;
+    }
+
+    .other-sign-in {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .app1, .app2 ,.app3 {
+        display: none;
+    }
+
+    .req-now {
+        display: none;
+    }
+
+    .copy {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+
+.nav-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.nav-head {
+    font-size: 25px;
+    color: lightseagreen;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.nav-para {
+    text-decoration: none;
+    color: black;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.fa-globe {
+    font-size: 20px;
+    width: 20px;
+    padding: 10px 0px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.para-sign {
+    width: 70px;
+    height: 42px;
+    font-size: 13px;
+    padding: 10px 7px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    margin-right: 20px;
+    font-weight: bold;
+    border-radius: 14px;
+}
+
+.para-sign:hover {
+    background-color: #364f6b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 14px;
+}
+
+.req {
+    width: 121px;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 14px;
+    height: 42px;
+    transition-duration: 0.5s;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.req:hover {
+    background-color: #364f6b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 14px;
+}
+
+form {
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+.form-header {
+    text-align: center;
+    font-size: 27px;
+}
+
+.form-para {
+    font-size: 15px;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.user-name {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.user-name > input {
+    width: 100%;
+    height: 36px;
+    border: 1px solid rgb(182, 182, 182);
+    padding-left: 20px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 14px;
+}
+
+.check {
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.check >input {
+    margin-right: 10px;
+}
+
+.trouble {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.sign-in-button {
+    display: block;
+    border: none;
+    width: 93%;
+    margin: 10px;
+    margin-top: 8px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #364f6b;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-in-button:hover {
+    background-color: #2b3d51;
+}
+
+.sign-in-button:active {
+    background-color: #1e2d3e;
+}
+
+
+
+.other-sign-in {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 13px;
+}
+
+.social-app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.social-app > div {
+    padding: 10px 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.social-app > div >i {
+    margin-right: 5px;
+}
+
+.social-app > div:hover{
+    background-color: #364f6b;
+    color: #fff;
+    border: none;
+}
+
+.req-now {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.req-now>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.copy {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+.copy>span {
+    font-weight: bold;
+}
+
+
