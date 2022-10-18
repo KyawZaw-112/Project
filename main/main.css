@@ -454,3 +454,104 @@ body {
     margin-right: 5px;
     transform: rotate(211deg);
 }
+
+.contace-box {
+    padding: 20px 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #fff7f7;
+}
+
+.contace-head {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contact-item1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 166px;
+}
+
+.item-box {
+    width: 400px;
+    height: 70px;
+    border: none;
+    padding: 10px 2vw;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    font-weight: 500;
+}
+
+.text-box {
+    width: 400px;
+    height: 200px;
+    padding: 20px 2vw;
+    outline: none;
+    background: transparent;
+    resize: vertical;
+    line-height: 17px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.send-button {
+    width: 150px;
+    height: 45px;
+    margin-top: 10px;
+    border: none;
+    font-size: 26px;
+    margin-left: 250px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f7ffad;
+    transition-duration: .5s;
+    border-radius: 10px;
+}
+
+.send-button:hover  {
+    color: #f7ffad;
+    background-color: #000;
+}
+
+.contact-item2>p {
+    width: 500px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.email-box {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.email-box > p{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.email-box >p:hover {
+    color: #0f0;
+}
+
+iframe {
+    width: 450px;
+    height: 200px;
+}
