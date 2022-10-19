@@ -13,6 +13,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         
@@ -36,13 +39,13 @@
             <div class="page-one" id="home">
                 <div class="bg-change-page">
                     <div class="chagne-button">
-                        <button class="change-image"></button>
-                        <button class="change-image"></button>
-                        <button class="change-image"></button>
+                        <button id="changeText1" class="btn"></button>
+                        <button id="changeText2" class="btn"></button>
+                        <button id="changeText3" class="btn"></button>
                     </div>
                     <div class="page-item1">
                         <p class="page-para">Best Ranking Website In Google</p><br>
-                        <p class="page-para-one">We Are Digital <br> Agency & <br> Marketing</p>
+                        <p class="page-para-one" id="changePara">We Are Digital <br> Agency & <br> Marketing</p>
                         <div class="page-button">Get Estimate</div>
                     </div>
                 </div>
@@ -141,6 +144,16 @@
                     </div>
                 </div>
             </div>
+                <div class="cookie-container">
+                    <!--this is cookie-->
+                    <img class="cookie" src="photo/cookie-removebg-preview.png" alt="">        
+                    <div class="text">
+                        <h2 class="cookie-title">Cookie Policy</h2>
+                        <p class="cookie-subtitle">We use analytical cookies (yum) to ame your experience on this website better.</p>
+                        <button id="cookieBtn">Okay, got it</button>
+                    </div>
+                </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="mainScrip.js"></script>
 
     </body>
